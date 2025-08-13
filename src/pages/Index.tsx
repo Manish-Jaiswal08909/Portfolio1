@@ -1,0 +1,36 @@
+import Navigation from "@/components/Navigation";
+import Hero from "@/components/Hero";
+import About from "@/components/About";
+import Education from "@/components/Education";
+import Skills from "@/components/Skills";
+import Projects from "@/components/Projects";
+import Contact from "@/components/Contact";
+
+const Index = () => {
+  return (
+    <div className="min-h-screen bg-background">
+      <Navigation />
+      <main>
+        <div id="home">
+          <Hero />
+        </div>
+        <About />
+        <Education />
+        <Skills />
+        <Projects />
+        <Contact />
+      </main>
+      
+      {/* Footer */}
+      <footer className="py-8 border-t border-primary/20 bg-muted/30">
+        <div className="container mx-auto px-6 text-center">
+          <p className="text-muted-foreground">
+            © 2024 Manish Kumar Jaiswal. Built with passion and modern web technologies.
+          </p>
+        </div>
+      </footer>
+    </div>
+  );
+};
+
+export default Index;
