@@ -27,19 +27,19 @@ const socialLinks = [
   {
     icon: Github,
     label: "GitHub",
-    href: "#",
+    href: "https://github.com/Manish-Jaiswal08909",
     color: "hover:text-gray-400"
   },
   {
     icon: Linkedin,
     label: "LinkedIn",
-    href: "#",
+    href: "https://www.linkedin.com/in/manish-kumar-jaiswal-7554a92aa/",
     color: "hover:text-blue-400"
   },
   {
     icon: Twitter,
     label: "Twitter",
-    href: "#",
+    href: "https://x.com/manishjaiz737",
     color: "hover:text-blue-400"
   }
 ];
