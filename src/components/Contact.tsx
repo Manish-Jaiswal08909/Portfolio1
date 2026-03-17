@@ -4,11 +4,17 @@ import { Mail, Phone, MapPin, Github, Linkedin, Twitter, ArrowRight } from "luci
 
 const contactInfo = [
   {
-    icon: Phone,
-    label: "Phone",
-    value: "+91-7068508909",
-    href: "tel:+917068508909/+977-9817414737"
-  },
+  icon: Phone,
+  label: "Phone (India)",
+  value: "+91-7068508909",
+  href: "tel:+917068508909"
+},
+{
+  icon: Phone,
+  label: "Phone (Nepal)",
+  value: "+977-9817414737",
+  href: "tel:+9779817414737"
+},
   {
     icon: Mail,
     label: "Email",
