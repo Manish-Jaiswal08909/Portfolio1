@@ -128,11 +128,16 @@ const Contact = () => {
                 </p>
                 
                 <div className="space-y-4">
-                  <Button className="w-full hero-gradient text-white border-0 hover:scale-105 smooth-transition glow-effect">
-                    <Mail className="w-4 h-4 mr-2" />
-                    Send me an email
-                    <ArrowRight className="w-4 h-4 ml-2" />
-                  </Button>
+                <Button
+  asChild
+  className="w-full hero-gradient text-white border-0 hover:scale-105 smooth-transition glow-effect"
+>
+  <a href="mailto:jaiswalmanish08909@gmail.com?subject=Contact from Portfolio">
+    <Mail className="w-4 h-4 mr-2" />
+    Send me an email
+    <ArrowRight className="w-4 h-4 ml-2" />
+  </a>
+</Button>
                   
                   <Button variant="outline" className="w-full border-primary/50 text-primary hover:bg-primary/10">
                     <Phone className="w-4 h-4 mr-2" />
