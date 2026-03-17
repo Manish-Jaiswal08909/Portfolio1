@@ -64,10 +64,19 @@ const Hero = () => {
           </div>
 
           <div className="flex flex-wrap items-center justify-center gap-4 mb-12">
-            <Button className="hero-gradient text-white border-0 hover:scale-105 smooth-transition glow-effect">
-              <Download className="w-4 h-4 mr-2" />
-              Download Resume
-            </Button>
+            <Button
+  asChild
+  className="hero-gradient text-white border-0 hover:scale-105 smooth-transition glow-effect"
+>
+  <a
+    href="https://drive.google.com/file/d/1bviX-SZEMhRhmr7gFhN2untuUdZKuL-_/view?usp=drive_link"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <Download className="w-4 h-4 mr-2" />
+    Download Resume
+  </a>
+</Button>
             <Button
               variant="outline"
               className="border-primary/50 text-primary hover:bg-primary/10"
