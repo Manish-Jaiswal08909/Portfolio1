@@ -86,27 +86,35 @@ const Hero = () => {
           </div>
 
           <div className="flex items-center justify-center gap-6">
-            <Button
-              size="icon"
-              variant="ghost"
-              className="rounded-full hover:scale-110 smooth-transition hover:bg-primary/20"
-            >
-              <Github className="w-5 h-5" />
-            </Button>
-            <Button
-              size="icon"
-              variant="ghost"
-              className="rounded-full hover:scale-110 smooth-transition hover:bg-primary/20"
-            >
-              <Linkedin className="w-5 h-5" />
-            </Button>
-            <Button
-              size="icon"
-              variant="ghost"
-              className="rounded-full hover:scale-110 smooth-transition hover:bg-primary/20"
-            >
-              <Twitter className="w-5 h-5" />
-            </Button>
+           <a href="https://github.com/Manish-Jaiswal08909" target="_blank" rel="noopener noreferrer">
+  <Button
+    size="icon"
+    variant="ghost"
+    className="rounded-full hover:scale-110 smooth-transition hover:bg-primary/20"
+  >
+    <Github className="w-5 h-5" />
+  </Button>
+</a>
+
+<a href="https://www.linkedin.com/in/manish-kumar-jaiswal-7554a92aa/" target="_blank" rel="noopener noreferrer">
+  <Button
+    size="icon"
+    variant="ghost"
+    className="rounded-full hover:scale-110 smooth-transition hover:bg-primary/20"
+  >
+    <Linkedin className="w-5 h-5" />
+  </Button>
+</a>
+
+<a href="https://x.com/manishjaiz737" target="_blank" rel="noopener noreferrer">
+  <Button
+    size="icon"
+    variant="ghost"
+    className="rounded-full hover:scale-110 smooth-transition hover:bg-primary/20"
+  >
+    <Twitter className="w-5 h-5" />
+  </Button>
+</a>
           </div>
         </div>
 
